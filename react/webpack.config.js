@@ -46,18 +46,6 @@ module.exports = {
                     }]
             },
             {
-                test: /\.css$/,
-                include: [
-                    /src/,
-                    '/node_modules/antd/dist/'
-                ],
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    "style-loader",
-                    "css-loader"
-                ]
-            },
-            {
                 test: /\.(sa|sc|c)ss$/,
                 use: [
                     MiniCssExtractPlugin.loader,
